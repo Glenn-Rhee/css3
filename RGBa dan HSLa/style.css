@@ -1,0 +1,23 @@
+/*RGBa (Red Green Blue Alpha) digunakan untuk mengatur ketajaman gambar, sama seperti opacity*/
+/*HSLa (Hue Saturation Lightness Alpha) digunakan untuk mengatur ketajaman gambar, sama seperti opacity*/
+body {
+    background-image: url(https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvZmwyNDQ3MTgxMjAzOS1pbWFnZS1qb2I2MzAtYV8yLWwwZzA0Zmh4LnBuZw.png?s=L1tA6SG8O2_E-U6ky3lLBdshBLUqynr5mu10z07dgyg);
+}
+
+.satu {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255,0,179, 0.5);
+    border-radius: 90px;
+    position: relative;
+}
+
+.dua {
+    width: 100px;
+    height: 100px;
+    background-color: hsla(120, 100%, 75%, 0.7);
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 100px;
+}

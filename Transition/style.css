@@ -1,0 +1,169 @@
+/*cara penulisan transition adalah sebagai berikut :*/
+
+.container {
+    width: 400px;
+    border: 2px solid black;
+}
+
+
+/*transition : (waktu s/ms)*/
+.kotak1 {
+    width: 300px;
+    height: 300px;
+    background-color: cornflowerblue;
+    transition: 1s;
+}
+
+.container:hover .kotak1 {
+    transform: translate(100px, 100px);
+    background-color: rebeccapurple;
+}
+
+
+/*transition : (property) waktu s/ms*/
+.kotak2 {
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    transition: transform 1s;
+}
+
+.container:hover .kotak2 {
+    transform: scale(1.2) translateX(250px);
+    background-color: aqua;
+}
+
+
+
+/*transition: waktu s/ms (fungsi)*/
+.fungsi {
+    width: 900px;
+    border: 2px solid black;
+    margin-top: 80px;
+    padding-top: 10px;
+    margin: 20px auto;
+}
+
+/*fungsi ease*/
+.satu {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    transition: 2s ease;
+    text-align: center;
+    line-height: 100px;
+}
+
+.fungsi:hover .satu {
+    transform: rotate(720deg);
+    margin-left: 800px;
+    background-color: brown;
+}
+
+
+/*fungsi ease-in*/
+.dua {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    transition: 2s ease-in;
+    text-align: center;
+    line-height: 100px;
+}
+
+.fungsi:hover .dua {
+    transform: rotate(720deg);
+    margin-left: 800px;
+    background-color: brown;
+}
+
+
+/*fungsi ease-out*/
+.tiga {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    transition: 2s ease-out;
+    text-align: center;
+    line-height: 100px;
+}
+
+.fungsi:hover .tiga {
+    transform: rotate(720deg);
+    margin-left: 800px;
+    background-color: brown;
+}
+
+
+/*fungsi ease-in-out*/
+.empat {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    transition: 2s ease-in-out;
+    text-align: center;
+    line-height: 100px;
+}
+
+.fungsi:hover .empat {
+    transform: rotate(720deg);
+    margin-left: 800px;
+    background-color: brown;
+}
+
+
+/*fungsi linear*/
+.lima {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    transition: 2s linear;
+    text-align: center;
+    line-height: 100px;
+}
+
+.fungsi:hover .lima {
+    transform: rotate(720deg);
+    margin-left: 800px;
+    background-color: brown;
+}
+
+
+/*fungsi cubic-bezier*/
+.enam {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    transition: 2s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    text-align: center;
+    line-height: 100px;
+}
+
+.fungsi:hover .enam {
+    transform: rotate(720deg);
+    margin-left: 800px;
+    background-color: brown;
+}
+
+
+/*transition delay digunakan setelah durasi transition*/
+.delay {
+    width: 900px;
+    border: 2px solid black;
+    margin-top: 80px;
+    padding-top: 10px;
+    margin: 20px auto;
+}
+
+.kotaksatu {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    transition: margin-left 3s, transform 2s 2.5s, background-color 3s;
+}
+
+.delay:hover .kotaksatu {
+    transform: rotate(720deg);
+    margin-left: 800px;
+    background-color: brown;
+}

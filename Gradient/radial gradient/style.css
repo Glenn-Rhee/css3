@@ -1,0 +1,53 @@
+/*sintaks sederhana*/
+/*background: radial-gradient(<warna awal>, <warna akhir>)*/
+
+div {
+    width: 500px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.satu {
+    background: radial-gradient(red, blue);
+}
+
+/*sintaks lengkap*/
+/*background: radial-gradient(
+    <tipe> <jangkauan> at <posisi-y> <posisi-x>,
+    <warna awal>, <warna akhir>
+    )*/
+
+
+/*tipe*/
+.dua {
+    background: radial-gradient(ellipse, red, blue);
+    /*ellipse*/
+}
+
+.tiga {
+    background: radial-gradient(circle, red, blue);
+}
+
+
+
+/*Jangkauan = Jangkauan dari pusat gradient ke sisi terluarnya*/
+/*closest-corner = jarak dari pusat gradient ke sudut terdekat element*/
+.empat {
+    background: radial-gradient(closest-corner, red, blue);
+}
+
+
+/*closest-side = jarak dari pusat gradient ke sisi terdekat element*/
+.lima {
+    background: radial-gradient(closest-side, red, blue);
+}
+
+/*farthest-corner = jarak dari pusat gradient ke sudut terjauh elemen*/
+.enam {
+    background: radial-gradient(farthest-corner, red, blue);
+}
+
+/*farthest-side = jarak dari pusat gradient ke sisi terjauh elemen*/
+.tujuh {
+    background: radial-gradient(farthest-side, red, blue);
+}

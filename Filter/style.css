@@ -1,0 +1,65 @@
+/*filter digunakan untuk menghias/mengubah suatu gambar*/
+
+body{
+    background-color: rgba(0, 0, 0, 0.578);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 40%;
+}
+
+.satu {
+    filter: blur(20px);
+}
+
+.dua {
+    filter: brightness(120%);
+}
+
+.tiga {
+    filter: contrast(40%);
+}
+
+.empat {
+    filter: saturate(40%);
+}
+
+.lima {
+    filter: grayscale(100%);
+}
+
+.enam {
+    filter: sepia(100%);
+}
+
+.tujuh {
+    filter: hue-rotate(180deg);
+    /*digunakan untuk merubah warna n derajat*/
+}
+
+.delapan {
+    filter: invert(100%);
+}
+
+.sembilan {
+    filter: opacity(40%);
+}
+
+.sepuluh {
+    filter: drop-shadow(5px 5px 10px black);
+    /*Perbedaan drop shadow dengan box shadow dan text shadow adalah drop shadow bisa digunakan untuk membuat keduanya sekaligus*/
+}
+
+.sebelas {
+    filter: blur(10px) hue-rotate(180deg) saturate(100%) drop-shadow(10px 10px 20px black);
+    -moz-transition-duration: 1.5s;
+    transition-duration: 1.5s;
+}
+
+.sebelas:hover{
+    filter: none;
+}

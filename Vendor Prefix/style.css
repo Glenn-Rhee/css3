@@ -1,0 +1,11 @@
+/*Vendor Prefix digunakan pada browser yang tidak support css3*/
+
+/*-o- digunakan untuk browser opera ver dulu*/
+/*-moz- digunakan untuk browser mozila firefox*/
+/*-ms- digunakan untuk browser internet explorer*/
+
+img {
+    -webkit-filter: blur(20px);
+    /*webkit digunakan untuk browser chrome, safari, opera ver baru*/
+    filter: blur(20px);
+}

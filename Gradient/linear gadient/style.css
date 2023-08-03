@@ -1,0 +1,67 @@
+
+div {
+    height: 300px;
+    width: 500px;
+    margin: 50px auto;
+}
+
+/*Linear Gradient digunakan untuk gradasi warna secara garis lurus terdapat beberapa jenis linear gradient :*/
+/*1. Bassic Linear Gradient*/
+/*background: linear-gradient (<warna ke-1>,<warna ke-2>, ... , <warna ke-n>)*/
+.satu {
+    background: linear-gradient(red, green, yellow);
+}
+
+/*2. Menggunakan sudut*/
+/*background: linear-gradient (<sudut>, <warna ke-1>,<warna ke-2>, ... , <warna ke-n>)*/
+.dua {
+    background: linear-gradient(90deg, red, orange, yellow);
+}
+
+/*3. Menggunakan arah*/
+/*background: linear-gradient (<arah>, <warna ke-1>,<warna ke-2>, ... , <warna ke-n>)*/
+.tiga {
+    background: linear-gradient(to left, rgb(255, 28, 255), skyblue, grey);
+}
+
+.tiga-dua {
+    background: linear-gradient(to right, rgb(255, 28, 255), skyblue, grey);
+}
+
+.tiga-tiga {
+    background: linear-gradient(to top, rgb(255, 28, 255), skyblue, grey);
+}
+
+.tiga-empat {
+    background: linear-gradient(to bottom, rgb(255, 28, 255), skyblue, grey);
+}
+
+.tiga-lima {
+    background: linear-gradient(to left top, rgb(255, 28, 255), skyblue, grey);
+}
+
+.tiga-enam {
+    background: linear-gradient(to left bottom, rgb(255, 28, 255), skyblue, grey);
+}
+
+.tiga-tujuh {
+    background: linear-gradient(to right top, rgb(255, 28, 255), skyblue, grey);
+}
+
+.tiga-delapan{
+    background: linear-gradient(to right bottom, #B2AC88, #D3D3D3, #ADD8E6);
+}
+
+/*4. Color Stop*/
+/*background: linear-gradient (<arah>, <warna ke-1> n%,<warna ke-2> n%, ... , <warna ke-n> n%)*/
+.empat {
+    background: linear-gradient(to right bottom,skyblue,rgb(0, 140, 255),rgb(78, 1, 211) 70%);
+}
+
+.lima {
+    background: linear-gradient(to right bottom,skyblue, #ffa6c9);
+}
+
+.enam {
+    background: linear-gradient(to right bottom,#3EB489 20%, #8F00FF);
+}

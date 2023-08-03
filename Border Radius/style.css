@@ -1,0 +1,48 @@
+/*Kotak*/
+.kotak {
+    width: 300px;
+    height: 300px;
+    border: 8px solid salmon;
+    border-radius: 25px;
+    margin-top: 0px;
+}
+
+/*kotak tumpul*/
+.kotakTumpul {
+    width: 300px;
+    height: 300px;
+    border: 7px solid skyblue;
+    border-radius: 100px 0 100px 0;
+}
+
+/*Lingkaran*/
+.lingkaran {
+    width: 300px;
+    height: 300px;
+    border: 8px solid lightgreen;
+    border-radius: 50%;
+}
+
+/*atas setengah lingkaran*/
+.atas-setengah-lingkaran {
+    width: 300px;
+    height: 150px;
+    border: 8px solid rgb(255, 2, 2);
+    border-radius: 158px 158px 0 0;
+}
+
+/*bawah setengah lingkaran*/
+.bawah-setengah-lingkaran {
+    width: 300px;
+    height: 150px;
+    border: 8px solid yellow;
+    border-radius: 0 0 158px 158px;
+}
+
+/*setengah-lingkaran-gajadi*/
+.setengah-lingkaran-gajadi {
+    width: 300px;
+    height: 300px;
+    border: 8px solid orange;
+    border-radius: 0 150px 150px 0;
+}

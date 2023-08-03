@@ -1,0 +1,38 @@
+/*Box Shadow digunakan untuk membuat bayangan pada sebuah objek*/
+/*properti box-shadow: <x-offset> <y-offset> <blur> <color>*/
+body {
+    height: 1000px;
+}
+.satu {
+    width: 400px;
+    height: 400px;
+    background-color: coral;
+    box-shadow: 9px 9px 10px rgba(100, 100, 100, 1);
+    margin: 5px auto;
+}
+
+/*Spread(size shadow), cara penggunaannya box-shadow: <x-offset> <y-offset> <blur> <spread> <color>*/
+.dua {
+    width: 400px;
+    height: 400px;
+    background-color: saddlebrown;
+    box-shadow: 0px 20px 10px -10px green;
+}
+
+/*inset(membuat bayangnnya di dalam objek), cara penggunaannya box-shadow: inset <x-offset> <y-offset> <blur> <spread> <color>*/
+.tiga {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    margin: 50px auto;
+    box-shadow: inset 0px 0px 0px 10px yellow;
+}
+/*multiple box (membuat lebih dari satu bayangan), cara penggunaannya tambahkan "," setelah parameter box-shadow*/
+.empat {
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    margin: 50px auto;
+    box-shadow: 0px 0px 0px 10px yellow, inset 0px 0px 0px 10px red;
+
+}

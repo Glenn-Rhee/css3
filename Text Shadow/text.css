@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+
+div {
+    width: 100%;
+    margin-top: 250px;
+}
+
+h1 {
+    font-size: 100px;
+    color: #ADD8E6;
+    display: inline-block;
+}
+
+.letter1 {
+    margin-right: 90px;
+    text-shadow: 6px 6px 50px rgb(141, 176, 189), 6px 6px 100px;
+}
+
+.letter2 {
+    margin-right: 45px;
+    text-shadow: 6px 6px 50px rgb(141, 176, 189), 6px 6px 100px;
+}
+
+.letter3 {
+    margin-left: 45px;
+    text-shadow: 6px 6px 50px rgb(141, 176, 189), 6px 6px 100px;
+}
+
+.letter4 {
+    margin-left: 90px;
+    text-shadow: 6px 6px 50px rgb(141, 176, 189), 6px 6px 100px;
+
+}
